@@ -24,7 +24,7 @@
     "outputs": {
         "objectOutput": {
             "type": "object",
-            "value": "[union(parameters('firstObject'), parameters('secondObject'))]"
+            "value": "[union(parameters('firstObject'), null)]"
         },
         "arrayOutput": {
             "type": "array",
